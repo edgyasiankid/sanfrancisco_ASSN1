@@ -8,7 +8,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 
 #load dataset
-df = pd.read_csv('./csv/crimeTime.csv.gz', compression='gzip')
+df = pd.read_csv('./csv/crimeTime.csv')
+df.to_csv('./csv/crimeTime.csv.gz', index=False, compression='gzip')
 
 #one-hot encode 'Category' (crime type) for classification
 encoder = OneHotEncoder(sparse_output=False)
