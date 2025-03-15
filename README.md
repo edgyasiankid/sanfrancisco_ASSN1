@@ -7,7 +7,7 @@ There is also a Jupyter Notebook (Google Colab) for accessibility.
 
 - Please unzip crimeTime.csv for the full file. Place that into "files" in Colab.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/aadce562-60c1-413b-a3af-e6011f4f3e55" alt="image" width="400">
 </p>
 
