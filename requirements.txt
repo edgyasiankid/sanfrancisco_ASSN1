@@ -1,0 +1,7 @@
+# Required for Local Install
+(CPU-ONLY)
+Python 3.6-3.11
+-pip install pandas
+-pip install scikit-learn
+-pip install tensorflow
+
