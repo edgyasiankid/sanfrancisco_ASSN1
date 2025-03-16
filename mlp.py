@@ -60,7 +60,7 @@ model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['ac
 
 #train the model
 model.fit(X_train, y_train, 
-          epochs=100,
+          epochs=10, #set to 10 for testing purposes
           batch_size=32, 
           validation_split=0.2,
           verbose=1)
